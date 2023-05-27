@@ -1,8 +1,8 @@
-FROM node:16-buster-slim
+FROM node:14-alpine
 
-WORKDIR node_app
+WORKDIR /node_app
 
-COPY . /node_app
+COPY . .
 
 RUN npm install
 
