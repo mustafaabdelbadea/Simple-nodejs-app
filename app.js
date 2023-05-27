@@ -1,12 +1,16 @@
 const express = require("express");
 const app = express();
-const port = 80;
+const port = 3000;
 
 app.get('/', (req,res) => {
   res.status(200)
   res.send("Hello form Nodejs App")
 })
 
+app.get('/health', (req,res) => {
+  res.status(200)
+  res.send("Health")
+})
 
 
 app.listen(port, () => {
