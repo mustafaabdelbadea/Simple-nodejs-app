@@ -1,7 +1,11 @@
 FROM node:16-buster-slim
 
-COPY . .
+WORKDIR node_app
+
+COPY . /node_app
+
 RUN npm install
 
-EXPOSE 80
+EXPOSE 3000
+
 CMD ["node", "app.js"]
