@@ -7,7 +7,8 @@ app.get('/', (req,res) => {
   res.send("Hello form Nodejs App")
 })
 
+
+
 app.listen(port, () => {
-  console.log(process.env.REDIS_HOSTNAME, process.env);
   console.log(`Example app listening at http://localhost:${port}`);
 });
