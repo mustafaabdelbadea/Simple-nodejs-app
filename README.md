@@ -29,21 +29,17 @@ Simple-nodejs-app/
 ├─ k8s.sh
 ├─ README.md
 ```
+### :rocket: Nodejs Application
 
-
-<!-- # Simple Nodejs App
-
-Simple Nodejs application
-
-## Port
+#### Port
 `3000`
 
-## Routes
+#### Routes
 
 - `GET /`
 - `GET /health`
 
-## Running
+#### Running
 
 * Run the application
 
@@ -51,4 +47,9 @@ Simple Nodejs application
     cd nodeapp
     node app.js
     ```
- -->
+### :whale: Dockerfile
+
+> - Copy the application from host 
+> - Create work directory
+> - Expose `3000`
+> - Entry point command
