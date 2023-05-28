@@ -1,0 +1,17 @@
+---
+apiVersion: "v1"
+kind: "Service"
+metadata:
+  name: "application-deployment-service"
+  namespace: "jenkins-deployment"
+  labels:
+    app: "application"
+spec:
+  ports:
+  - protocol: "TCP"
+    port: 80
+    targetPort: 3000
+  selector:
+    app: "application"
+  type: "LoadBalancer"
+  loadBalancerIP: ""
