@@ -47,7 +47,10 @@ pipeline {
         }
 
         stage('Apply kubernetes changes') {
-            sh './k8s'
+            steps {
+                sh './k8s'
+
+            }
         }
 
 
