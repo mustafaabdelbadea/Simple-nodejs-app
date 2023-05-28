@@ -61,3 +61,12 @@ docker run user/imagename:tagname
 ```
 
 
+### :ship: Kubernetes
+- Create a deployment contains the application
+- Create a Service loadbalancer to access application
+- Starting the naming with number to make files ordered
+
+```
+kubectl apply -f 1-app-deploy.yml
+kubectl apply -f 2-app-svc.yml
+```
