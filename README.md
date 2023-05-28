@@ -15,5 +15,6 @@ Simple Nodejs application
 * Run the application
 
     ```
+    cd nodeapp
     node app.js
     ```
