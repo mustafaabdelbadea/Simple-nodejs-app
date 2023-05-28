@@ -17,6 +17,7 @@
 ### Get the Code
 ```
 git clone https://github.com/mustafaabdelbadea/Simple-nodejs-app
+cd Simple-nodejs-app
 ```
 
 ### Structure
