@@ -48,8 +48,8 @@ pipeline {
 
         stage('Apply kubernetes changes') {
             steps {
-                sh './k8s'
-
+                sh 'chmod 555 ./k8s.sh '
+                sh './k8s.sh'
             }
         }
 
