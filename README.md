@@ -49,7 +49,15 @@ Simple-nodejs-app/
     ```
 ### :whale: Dockerfile
 
-> - Copy the application from host 
-> - Create work directory
-> - Expose `3000`
-> - Entry point command
+ - Copy the application from host 
+ - Create work directory
+ - Expose `3000`
+ - Entry point command
+
+```
+docker built -t  user/imagename:tagname .
+docker push user/imagename:tagname
+docker run user/imagename:tagname
+```
+
+
