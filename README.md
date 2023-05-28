@@ -93,5 +93,5 @@ kubectl apply -f 2-app-svc.yml
 - Execute script to apply all kubernetes files
 ## Authors
 
-- [@linkedin](https://www.linkedin.com/in/mustafa-abdelbadea/)
+- 👨‍💻 [@linkedin](https://www.linkedin.com/in/mustafa-abdelbadea/)
 
